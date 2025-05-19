@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+
+    .container{
+        width: 90%;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    #menu_cll{
+        display: block;
+        z-index: 100;
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: solid 1px rgba(255, 255, 255, 0.363);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.322);
+    }
+
+    .flex_menu_cll{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #menu_cll .flex_menu_cll i{
+        font-size: 30px;
+    }
+
+    #menu_cll img{
+        width: 100px;
+    }
+
+    .nav_cll {
+        display: none;
+        padding: 20px;
+        margin-top: -290px;
+        animation: ativarMenu 0.4s ease forwards;    
+
+    }
+
+    @keyframes ativarMenu {
+        0%{
+            margin-top: -230px;
+        }
+
+        100%{
+            margin-top : 0;
+        }
+    }
+
+
+
+    #fecharMenu{
+        display: none;
+    }
+
+    .nav_cll ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    .nav_cll ul li{
+        margin-top: 30px;
+        list-style-type: none;
+    }
+
+    .nav_cll a{
+        color: #02e28c;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    /* Botões */
+    .menu-icon,
+    .close-icon {
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Classe ativa */
+    #nav_cll.ativo {
+        right: 0;
+    }
+
+    .flex_dobra{
+        flex-direction: column;
+    }
+    #menu_pc{
+        display: none;
+    }
+
+    header{
+        background-image: url(../img/back_png.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    h1{
+        margin-top: 50px;
+    }
+
+    header .flex_dobra{
+        flex-direction: column;
+    }
+
+    .header_txt{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .header_img{
+        width: 100%;
+        margin-top: 20px;
+        /* display: none; */
+        animation: none;
+    }
+
+
+    /**dobra 2**************/
+
+    .s02_txt{
+        width: 100%;
+    }
+
+    #sub_titulo_s02_txt{
+        text-align: center;
+    }
+
+    .flez_caixa_s02{
+        flex-wrap: wrap;
+    }
+
+    .s02_img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .s02_img img{
+        width: 100%;
+    }
+
+
+    /*s03************/
+
+
+    .flex_dobra_s03{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flex_dobra_s03 div{
+        width: 100%;
+    }
+
+
+    /*s04************/
+
+    .flex_dobra_s04{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .caixa_s04{
+        width: 100%;
+    }
+
+    /*s05*********/
+    .portfolio-section h2{
+        font-size: 30px;
+    }
+    
+    
+
+
+    /*s07*/
+
+    .caixa_s07{
+        width: 100%;
+        text-align: center;
+    }
+
+    .caixa_s07 h3{
+        font-size: 25px;
+    }
+
+
+    /*s08************/
+
+    #formulario form{
+        width: 100%;
+    }
+
+
+
+  }
